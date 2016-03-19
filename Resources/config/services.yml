@@ -1,0 +1,4 @@
+services:
+#    glory_web.example:
+#        class: Glory\Bundle\WebBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

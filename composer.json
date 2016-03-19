@@ -1,0 +1,23 @@
+{
+    "name": "foreverglory/web-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony WebBundle",
+    "keywords": ["symfony", "bundle", "web"],
+    "homepage": "http://foreverglory.me",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ForeverGlory",
+            "email": "foreverglory@qq.com",
+            "homepage": "http://foreverglory.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Glory\\Bundle\\WebBundle": ""}
+    },
+    "require": {
+        "symfony/symfony": "~2.3"
+    },
+    "require-dev": {
+    }
+}
