@@ -15,6 +15,7 @@
     "autoload": {
         "psr-4": {"Glory\\Bundle\\WebBundle\\": ""}
     },
+    "minimum-stability": "dev",
     "require": {
         "symfony/symfony": "~2.3|~3.0",
         "sp/bower-bundle": "~0.11"
