@@ -16,7 +16,8 @@
         "psr-4": {"Glory\\Bundle\\WebBundle\\": ""}
     },
     "require": {
-        "symfony/symfony": "~2.3"
+        "symfony/symfony": "~2.3|~3.0",
+        "sp/bower-bundle": "~0.11"
     },
     "require-dev": {
     }
