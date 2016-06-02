@@ -18,7 +18,8 @@
     "minimum-stability": "dev",
     "require": {
         "symfony/symfony": "~2.3|~3.0",
-        "sp/bower-bundle": "~0.11"
+        "sp/bower-bundle": "~0.11",
+        "ocramius/package-versions": "^1.0"
     },
     "require-dev": {
     }

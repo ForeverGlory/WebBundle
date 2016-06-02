@@ -1,4 +1,5 @@
 services:
-#    glory_web.example:
-#        class: Glory\Bundle\WebBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    glory_web.twig.version_extension:
+        class: Glory\Bundle\WebBundle\Twig\Extension\VersionExtension
+        tags:
+            - { name: twig.extension }
