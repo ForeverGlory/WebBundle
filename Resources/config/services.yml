@@ -1,5 +1,13 @@
+parameters:
+    glory_web.twig.php_disable: []
+    glory_web.twig.php_enable: []
 services:
     glory_web.twig.version_extension:
         class: Glory\Bundle\WebBundle\Twig\Extension\VersionExtension
+        tags:
+            - { name: twig.extension }
+    glory_web.twig.phpfunction_extension:
+        class: Glory\Bundle\WebBundle\Twig\Extension\PHPFunctionExtension
+        arguments: [%glory_web.twig.php_disable%,%glory_web.twig.php_enable%]
         tags:
             - { name: twig.extension }
