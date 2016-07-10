@@ -11,3 +11,8 @@ services:
         arguments: [%glory_web.twig.php_disable%,%glory_web.twig.php_enable%]
         tags:
             - { name: twig.extension }
+    glory_web.twig.bower_extension:
+        class: Glory\Bundle\WebBundle\Twig\Extension\BowerExtension
+        arguments: ['@service_container']
+        tags:
+            - { name: twig.extension }
