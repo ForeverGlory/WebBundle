@@ -13,14 +13,26 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Glory\\Bundle\\WebBundle\\": ""}
+        "psr-4": {
+            "Glory\\Bundle\\WebBundle\\": ""
+        }
     },
     "minimum-stability": "dev",
     "require": {
         "symfony/symfony": "~2.3|~3.0",
-        "sp/bower-bundle": "~0.11",
-        "ocramius/package-versions": "^1.0"
+        "ocramius/package-versions": "^1.0",
+        "php-kit/composer-bower-plugin": "dev-master"
     },
     "require-dev": {
+    },
+    "extra": {
+        "bower": {
+            "require": {
+                "jquery": "~2.0",
+                "jquery.ui": "latest",
+                "bootstrap": "latest",
+                "fontawesome": "latest"
+            }
+        }
     }
 }
