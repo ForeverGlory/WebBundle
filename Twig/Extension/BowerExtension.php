@@ -42,7 +42,7 @@ class BowerExtension extends \Twig_Extension
     public function getPath()
     {
         if (!$this->path) {
-            $this->path = 'bower_componets';
+            $this->path = 'bower_components';
         }
         return $this->path;
     }
