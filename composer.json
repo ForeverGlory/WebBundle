@@ -21,7 +21,7 @@
     "require": {
         "symfony/symfony": "~2.3|~3.0",
         "ocramius/package-versions": "^1.0",
-        "php-kit/composer-bower-plugin": "dev-master"
+        "php-kit/composer-bower-plugin": "~1.0"
     },
     "require-dev": {
     },
